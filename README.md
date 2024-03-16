@@ -2,7 +2,6 @@
 
 Welcome to our Blog Website! Below you'll find information about the features and functionalities of our platform, as well as the technologies used in its development.
 
-**Mini Project Design link** :- https://www.figma.com/file/5q3r22qXmiuIG6h81PIhwl/Blog-web?type=design&node-id=0-1&mode=design&t=TpipC6BTZHvz36Ef-0
 
 ## Features:
 
@@ -34,6 +33,9 @@ Welcome to our Blog Website! Below you'll find information about the features an
 | <img height="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg"> |     Express.js     | A minimal and flexible Node.js web application framework that provides a robust set of features for building web and mobile applications. Express.js simplifies the process of handling HTTP requests, routing, and middleware integration.
 | <img height="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg"> |  MongoDB | A NoSQL database that offers high performance, scalability, and flexibility. MongoDB stores data in flexible, JSON-like documents, making it easy to work with complex data structures.
 | <img height="50" src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg"> |      Flask    | A lightweight WSGI web application framework in Python. It is designed to make getting started quick and easy, with the ability to scale up to complex applications. It provides tools, libraries, and technologies that allow you to build a web application.
+
+
+## Mini Project Design link :- <a href="https://www.figma.com/file/5q3r22qXmiuIG6h81PIhwl/Blog-web?type=design&node-id=0-1&mode=design&t=TpipC6BTZHvz36Ef-0">Click here to visit the design</a>
 
 ## Getting Started:
 
