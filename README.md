@@ -2,6 +2,8 @@
 
 Welcome to our Blog Website! Below you'll find information about the features and functionalities of our platform, as well as the technologies used in its development.
 
+**Mini Project Design link** :- https://www.figma.com/file/5q3r22qXmiuIG6h81PIhwl/Blog-web?type=design&node-id=0-1&mode=design&t=TpipC6BTZHvz36Ef-0
+
 ## Features:
 
 1. **User-friendly Interface:** Our website boasts a sleek and intuitive design, making it easy for users to navigate and enjoy the content.
