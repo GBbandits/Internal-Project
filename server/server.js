@@ -6,22 +6,22 @@ require('dotenv').config();
 const app = express();
 const PORT = process.env.PORT || 5000;
 
-// Middleware
+
 app.use(bodyParser.json());
 app.use(cors());
 
-// Connect to MongoDB
+
 mongoose.connect(process.env.MONGO)
   .then(() => console.log("mongo CONNECTED"))
   .catch(err => console.error("MongoDB connection error:", err));
 
-// Post model
+
 const Post = mongoose.model('Post', {
   title: String,
   content: String,
   // imagePath: String,
 });
-// Routes
+
 app.get('/api/posts', async (req, res) => {
   const posts = await Post.find();
   res.json(posts);
@@ -54,10 +54,11 @@ app.post('/chatbot', (req, res) => {
     { pattern: 'hello', reply: 'Hi there!' },
     { pattern: 'hi', reply: 'Hello!' },
     { pattern: 'how are you', reply: "I'm just a bot, but I'm doing well!" },
-    // { pattern: 'fuck', reply: "I'm sorry, I cannot respond to offensive language." },
+    { pattern: 'fuck', reply: "I'm sorry, I cannot respond to offensive language." },
     { pattern: 'what is your name', reply: "I'm a chatbot, you can call me HopeAI" },
     { pattern: 'who created you', reply: "I was created by Pravin" },
     { pattern: 'who designed you', reply: "I was Designed by Vansh" },
+    { pattern: 'who gave content to you ', reply: "Content was given by Prathamesh" },
     { pattern: 'what can you do', reply: "I can answer questions, provide information, and engage in conversation." },
     { pattern: 'where are you from', reply: "I exist in the digital realm, so I don't have a physical location." },
     { pattern: 'tell me a joke', reply: "Why don't scientists trust atoms? Because they make up everything!" },
